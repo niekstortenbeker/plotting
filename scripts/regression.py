@@ -21,9 +21,9 @@ def prepare_regression_csv(df):
         writer = csv.writer(fout)
         writer.writerow(['culture', 'x_name', 'y_name', 'slope', 'intercept', 'r_squared', 'x_values', 'y_values'])
 
-        #TODO maybe use groupby here
         cultures = df.culture.unique()
         for culture in cultures:
+            # groupby would be a better solution here
             df_trendline = df[df.culture == culture]
             write_regression(culture, 'productA_umol', df_trendline, writer)
             write_regression(culture, 'productB_umol', df_trendline, writer)

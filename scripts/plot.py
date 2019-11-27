@@ -69,9 +69,6 @@ def plot_substrates(df, df_regression, regression=True):
                 linestyle='None',
                 label='product C')
 
-    culture = df.culture.unique()[0]
-    # TODO can I delete this?
-
     if regression:
         axs = trendlines(axs, df_regression)
 
