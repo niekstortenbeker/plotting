@@ -19,6 +19,11 @@ results/{culture_name}.png.
 
 The requirements.yml file expects you are using anaconda.
 
+culture 1
 <img src="/results/culture_1.png" alt="culture 1 plot" width="500"/>
-<img src="/results/culture_2.png" alt="culture 2 plot" width="500"/>
+
+culture 2
+<img src="/results/culture_2.png" alt="culture 2 plot" width="500"/>   
+      
+control
 <img src="/results/control.png" alt="control plot" width="500"/>
