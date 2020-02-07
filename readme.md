@@ -18,3 +18,7 @@ results/regression.csv. Each culture will have a graph exported like
 results/{culture_name}.pdf.
 
 The requirements.yml file expects you are using anaconda.
+
+![control plot](/results/control.png "control")
+![culture 1 plot](/results/control.png "culture 1")
+![culture 2 plot](/results/control.png "culture 2")
