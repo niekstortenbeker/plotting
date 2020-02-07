@@ -29,11 +29,11 @@ def plotting(df, df_regression):
         plot_and_export('control', df, df_regression, regression=False)
 
 
-def plot_and_export(culture, df, df_regression, regression = True):
+def plot_and_export(culture, df, df_regression, regression=True):
     df_culture = df[df.culture == culture]
     df_regression_culture = df_regression[df_regression.culture == culture]
     fig = plot_substrates(df_culture, df_regression_culture, regression)
-    m.export_plot(fig, base / 'results' / f'{culture}.pdf')  # or .eps
+    m.export_plot(fig, base / 'results' / f'{culture}.png')  # or .eps, pdf etc.
 
 
 def plot_substrates(df, df_regression, regression=True):
