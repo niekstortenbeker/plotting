@@ -24,8 +24,8 @@ def main():
 
 
 def plotting(df, df_regression):
-        plot_and_export('culture 1', df, df_regression)
-        plot_and_export('culture 2', df, df_regression)
+        plot_and_export('culture_1', df, df_regression)
+        plot_and_export('culture_2', df, df_regression)
         plot_and_export('control', df, df_regression, regression=False)
 
 
