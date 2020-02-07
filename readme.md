@@ -17,7 +17,7 @@ Regression lines are then calculated, and this data is plotted and exported to
 results/regression.csv. Each culture will have a graph exported like
 results/{culture_name}.png.
 
-The requirements.yml file expects you are using anaconda.
+Requires python 3.6 and up and the packages listed in requirements.txt. 
 
 culture 1  
 <img src="/results/culture_1.png" alt="culture 1 plot" width="500"/>
