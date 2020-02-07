@@ -20,5 +20,5 @@ results/{culture_name}.pdf.
 The requirements.yml file expects you are using anaconda.
 
 ![control plot](/results/control.png "control")
-![culture 1 plot](/results/culture\ 1.png "culture 1")
-![culture 2 plot](/results/culture\ 2.png "culture 2")
+![culture 1 plot](/results/culture_1.png "culture 1")
+![culture 2 plot](/results/culture_2.png "culture 2")
